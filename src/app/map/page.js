@@ -1,7 +1,13 @@
-"use client";
+
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Link from "next/link";
+
+export const metadata = {
+  title: "YEIDA Master Plan & Maps - InvestYeida",
+  description:
+    "Explore the official YEIDA Master Plan and detailed maps. Understand the development layout and future growth prospects of the Yamuna Expressway region.",
+};
 
 export default function YeidaMapPage() {
   return (

@@ -60,7 +60,7 @@ export default function Footer() {
         <div className="space-y-4">
           <Image
             src="/logobanner.png"
-            alt="Founder Photo"
+            alt="investyeida logo"
             width={160}
             height={160}
             className="rounded-xl object-cover border border-gray-700 shadow-xl"

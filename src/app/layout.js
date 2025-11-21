@@ -86,6 +86,52 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+    <head>
+        {/* Microsoft Clarity Script */}
+        <link rel="icon" href="/favicon.ico" />
+       
+        <script
+          type="text/javascript"
+          dangerouslySetInnerHTML={{
+            __html: `
+            if (!window.location.host.includes('localhost')) {
+               (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "u9itum58pn");
+    }
+
+            `,
+          }}
+        />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "InvestYeida",
+              url: "https://www.investyeida.in",
+              logo: "https://www.investyeida.in/logo.png",
+              
+              description:
+                "investYeida is a leading private real estate investment advisory firm providing expert guidance on residential, industrial, and commercial projects under the Yamuna Expressway Industrial Development Authority (YEIDA). Get detailed insights, master plans, and investment strategies for India's fastest-growing growth zone",
+              founder: {
+                "@type": "Person",
+                name: "Abhinav Sharma",
+                url: "https://www.investyeida.in",
+              },
+              contactPoint: {
+                "@type": "ContactPoint",
+                contactType: "customer support",
+                email: "hello@investyeida.in",
+              },
+            }),
+          }}
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

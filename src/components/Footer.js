@@ -42,9 +42,8 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold">Legal</h3>
             <ul className="text-sm mt-2 space-y-1">
-              <li><Link href="/terms">Terms & Conditions</Link></li>
-              <li><Link href="/privacy">Privacy Policy</Link></li>
-              <li><Link href="/disclaimer">Disclaimer</Link></li>
+              <li><Link href="/documents/termsandconditions.pdf">Terms & Conditions</Link></li>
+              <li><Link href="/documents/privacypolicy.pdf">Privacy Policy</Link></li>
             </ul>
           </div>
 
@@ -52,8 +51,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold">Help</h3>
             <ul className="text-sm mt-2 space-y-1">
-              <li><Link href="/contact">Contact Us</Link></li>
-              <li><Link href="/faq">FAQ</Link></li>
+              <li><Link href="/contact-us">Contact Us</Link></li>
             </ul>
           </div>
         </div>

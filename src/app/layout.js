@@ -34,16 +34,16 @@ export const metadata = {
     "Real Estate Growth Zone",
     "Noida Real Estate",
   ],
-  authors: [{ name: "InvestYeida Team", url: "https://investyeida.in" }],
+  authors: [{ name: "InvestYeida Team", url: "https://www.investyeida.in" }],
   creator: "InvestYeida",
   publisher: "InvestYeida",
-  metadataBase: new URL("https://investyeida.in"),
+  metadataBase: new URL("https://www.investyeida.in"),
 
   openGraph: {
     title: "InvestYeida — Expert Real Estate Advisory for YEIDA",
     description:
       "Professional guidance for real estate investments under YEIDA. Explore top residential, commercial, and industrial opportunities with trusted advisory.",
-    url: "https://investyeida.in",
+    url: "https://www.investyeida.in",
     siteName: "InvestYeida",
     images: [
       {

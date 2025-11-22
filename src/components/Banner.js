@@ -1,6 +1,8 @@
 
 "use client";
 import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
+
 
 export default function Banner() {
   const images = [
@@ -9,6 +11,10 @@ export default function Banner() {
     "/banner/4.avif",
     "/banner/5.webp",
   ];
+
+
+const router = useRouter();
+  
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [fade, setFade] = useState(false);
@@ -65,13 +71,24 @@ export default function Banner() {
   </p>
 
   <div className=" hidden md:flex gap-3">
-    <button className="bg-orange-400 text-white px-4 py-1 rounded-md text-sm font-medium hover:bg-gray-100">
-      See Residential Projects
-    </button>
-    <button className="bg-orange-400 text-white px-4 py-1 rounded-md text-sm font-medium hover:bg-gray-100">
-      See Commercial Projects
-    </button>
-  </div>
+
+      <button
+        onClick={() => router.push("/projects/residential")}
+        className="bg-orange-400 text-white px-4 py-1 rounded-md text-sm font-medium hover:bg-orange-600"
+      >
+        See Residential Projects
+      </button>
+
+      <button
+        onClick={() => router.push("/projects/commercial")}
+        className="bg-orange-400 text-white px-4 py-1 rounded-md text-sm font-medium hover:bg-orange-600"
+      >
+        See Commercial Projects
+      </button>
+
+      
+    </div>
+
 </div>
 
     </>

@@ -81,7 +81,7 @@ export default function YeidaMapPage() {
           {/* Desktop Image */}
           <div className="hidden md:block w-full max-w-5xl">
             <img
-              src="/map/map.jpg"
+              src="/map/1.jpg"
               alt="YEIDA Master Plan Map"
               className="w-full h-auto rounded-xl object-cover shadow-lg"
             />
@@ -184,5 +184,5 @@ export default function YeidaMapPage() {
 
       <Footer />
     </div>
-  );
+  );q
 }

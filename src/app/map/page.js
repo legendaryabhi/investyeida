@@ -6,6 +6,21 @@ export const metadata = {
   title: "YEIDA Master Plan & Maps - InvestYeida",
   description:
     "Explore the official YEIDA Master Plan and detailed maps. Understand the development layout and future growth prospects of the Yamuna Expressway region.",
+  keywords: [
+    "YEIDA Master Plan",
+    "Yamuna Expressway Maps",
+    "YEIDA Development Plan",
+    "Yamuna Expressway Real Estate",
+    "InvestYeida YEIDA Maps",
+    "YEIDA Zoning Map",
+    "YEIDA Land Use Plan",
+    "Yamuna Expressway Investment",
+    "YEIDA Residential Areas",
+    "YEIDA Commercial Zones",
+    "YEIDA Industrial Sectors",
+    "Noida International Airport",
+    "Yamuna Expressway Growth Zone"
+  ],
 };
 
 export default function YeidaMapPage() {

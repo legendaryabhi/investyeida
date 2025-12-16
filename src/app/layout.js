@@ -12,37 +12,41 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "InvestYeida | Real Estate Advisory for YEIDA Region",
+  title: "InvestYeida | Yamuna Expressway Plots & YEIDA City Real Estate",
   description:
-    "InvestYeida is a leading private real estate investment advisory firm providing expert guidance on residential, industrial, and commercial projects under the Yamuna Expressway Industrial Development Authority (YEIDA). Get detailed insights, master plans, and investment strategies for India's fastest-growing growth zone.",
+    "Explore Yamuna Expressway plots, YEIDA City real estate, and YEIDA Master Plan insights. InvestYeida helps you choose the best residential, commercial & industrial investments. Your trusted YEIDA real estate advisory.",
   keywords: [
-    "YEIDA",
-    "Yamuna Expressway",
-    "InvestYeida",
-    "Yamuna Authority",
-    "Real Estate Advisory",
-    "Noida International Airport",
-    "Jewar Airport",
-    "Yamuna City",
-    "Industrial Plots",
-    "Residential Plots",
-    "Commercial Projects",
-    "Greater Noida",
-    "Property Investment",
-    "YEIDA Plots",
-    "YEIDA Master Plan",
-    "Real Estate Growth Zone",
-    "Noida Real Estate",
-  ],
+  "YEIDA",
+  "Yamuna Expressway",
+  "InvestYeida",
+  "Yamuna Authority",
+  "YEIDA City",
+  "Yamuna Expressway Plots",
+  "YEIDA Plot Scheme",
+  "YEIDA Master Plan 2041",
+  "YEIDA Plots",
+  "YEIDA Residential Plots",
+  "YEIDA Commercial Plots",
+  "YEIDA Industrial Plots",
+  "Yamuna Expressway Real Estate",
+  "Property Investment",
+  "Real Estate Advisory",
+  "Noida International Airport",
+  "Jewar Airport",
+  "Greater Noida",
+  "Noida Real Estate",
+  "Real Estate Growth Zone"
+],
+
   authors: [{ name: "InvestYeida Team", url: "https://www.investyeida.in" }],
   creator: "InvestYeida",
   publisher: "InvestYeida",
   metadataBase: new URL("https://www.investyeida.in"),
 
   openGraph: {
-    title: "InvestYeida — Expert Real Estate Advisory for YEIDA",
+    title: "InvestYeida | Yamuna Expressway Plots & YEIDA City Real Estate",
     description:
-      "Professional guidance for real estate investments under YEIDA. Explore top residential, commercial, and industrial opportunities with trusted advisory.",
+      "Explore Yamuna Expressway plots, YEIDA City real estate, and YEIDA Master Plan insights. InvestYeida helps you choose the best residential, commercial & industrial investments. Your trusted YEIDA real estate advisory.",
     url: "https://www.investyeida.in",
     siteName: "InvestYeida",
     images: [
@@ -59,9 +63,9 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "InvestYeida — Real Estate Investment Advisory",
+title : "InvestYeida | Yamuna Expressway Plots & YEIDA City Real Estate",
     description:
-      "Guidance for residential & commercial investments under the Yamuna Expressway region (YEIDA). Premium insights, master plans, and advisory services.",
+      "Explore Yamuna Expressway plots, YEIDA City real estate, and YEIDA Master Plan insights. InvestYeida helps you choose the best residential, commercial & industrial investments. Your trusted YEIDA real estate advisory.",
     images: ["/og-image.png"],
   },
 
@@ -117,7 +121,13 @@ export default function RootLayout({ children }) {
               logo: "https://www.investyeida.in/logo.png",
               
               description:
-                "investYeida is a leading private real estate investment advisory firm providing expert guidance on residential, industrial, and commercial projects under the Yamuna Expressway Industrial Development Authority (YEIDA). Get detailed insights, master plans, and investment strategies for India's fastest-growing growth zone",
+                "InvestYeida is a leading private real estate investment advisory firm providing expert guidance on residential, industrial, and commercial projects under the Yamuna Expressway Industrial Development Authority (YEIDA). Get detailed insights, master plans, and investment strategies for India's fastest-growing growth zone.",
+              sameAs: [
+                "https://www.facebook.com/investyeida",
+                "https://www.linkedin.com/company/investyeida",
+                "https://www.instagram.com/investyeida",
+                "https://twitter.com/investyeida",
+              ],  
               founder: {
                 "@type": "Person",
                 name: "Abhinav Sharma",

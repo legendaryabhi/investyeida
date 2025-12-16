@@ -20,7 +20,7 @@ export default function Footer() {
           {/* Row 3 */}
           <div>
             <h3 className="text-lg font-semibold">Last Updated On</h3>
-            <p className="text-sm mt-1">21 November 2025</p>
+            <p className="text-sm mt-1">16 December 2025</p>
           </div>
         </div>
 

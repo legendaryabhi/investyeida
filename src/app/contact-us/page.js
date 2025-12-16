@@ -3,6 +3,12 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import BelowSection from "@/components/BelowSection";
 
+export const metadata = {
+  title: "Contact InvestYeida - Real Estate Advisory for YEIDA",
+  description:
+    "Get in touch with InvestYeida for expert real estate investment advice under YEIDA. Contact us for residential, commercial, and industrial property guidance in the Yamuna Expressway region.",
+};
+
 export default function ContactPage() {
   return (
     <div className="min-h-screen bg-white w-full relative overflow-hidden">
